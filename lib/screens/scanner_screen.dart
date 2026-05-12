@@ -77,7 +77,7 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
       Vibration.vibrate(duration: 100);
     }
 
-    final String targetUrl = "http://102.214.241.12/checkin?token=$rawValue";
+    final String targetUrl = "https://attendance.ratelplus.net.ng/checkin?token=$rawValue";
     final Uri uri = Uri.parse(targetUrl);
 
     try {
