@@ -3,7 +3,7 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <application
-        android:label="Ratel attendance Scanner"
+        android:label="Ratel Scanner"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity
